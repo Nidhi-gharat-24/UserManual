@@ -1,0 +1,144 @@
+.back-arrow {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #000; /* Set the color to a dark color, you can use hex, rgb, or color names */
+  font-weight: 700; /* Optional: Set font weight if needed */
+  background-color: #fff; /* Optional: Set background color if needed */
+  padding: 5px 10px; /* Optional: Add padding for better visibility */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+.tree-view-container {
+  margin-top: 10px; /* Adjust this margin based on your design */
+ } 
+
+#BackButton
+{
+  display: flex;
+  margin-top: 10px;
+  justify-content:right;
+  align-items: center;
+  margin-bottom: 40px; /* Add 40px space between .button-container and #name */
+}
+
+.treeholder
+{
+  margin-top: -30px;
+}
+
+#tv_hrad {
+  text-align: center;
+  margin-top: 10px;
+  color: #1f95bc; /* Set the text color */
+  /* text-shadow: 1px 1px 2px #f20b0b; */
+  padding: 10px; /* Adjust padding as needed */
+
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 10px;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: #3b9af3;
+  white-space: nowrap;
+
+  margin-left: 15px;
+  display: table;
+  width: 200px; /* Set the width to 200px */
+  height: 50px; /* Set the height to 50px */
+  text-align: center; /* Center text horizontally */
+  line-height: 50px; /* Center text vertically */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+}
+
+.page-container{
+  background-image: url('../Assets/watermark.jpg');
+  background-size: 280px;
+  /* Adjust to your preference */
+  background-repeat: no-repeat;
+  /* Ensure the image is not repeated */
+  background-position: center;
+  top: 80px;
+  /* Center the background image */
+  opacity: 1;
+}
+
+.language-dropdown {
+  position: absolute; /* Position inside the page container */
+  top:10px; /* Adjust this based on where you want it to appear */
+  left: 500px; /* Position it to the right */
+  padding: 15px; /* Add padding for better visibility */
+  font-size: 18px; /* Adjust font size */
+  background-color: #3b9af3;
+  color: #0a0a0a; /* Text color */
+  cursor: pointer; /* Pointer cursor */
+  text-align: center;
+  font-weight: 600;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+}
+
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+  .language-dropdown {
+    top: 60px;  /* Further adjust top positioning */
+    left: 35px;
+    right: 0;  /* Further adjust right positioning */
+    padding: 10px;  /* Further adjust padding */
+    font-size: 14px;  /* Further adjust font size */
+  }
+  #tv_hrad {
+    top: 70px;
+    color: #000000;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #3b9af3;
+    left: 25px;
+    white-space: normal; /* Allow text wrapping */
+    display: block; /* Ensure block display */
+    width: 100%; /* Full width */
+    max-width: 300px; /* Maximum width */
+    height: auto; /* Adjust height based on content */
+    line-height: 1.5; /* Adjust line height for readability */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    overflow-wrap: break-word; /* Break long words to prevent overflow */
+  }
+  .treeholder
+{
+  margin-top: 10px;
+}
+
+}
+
+/* Media query for very small devices */
+@media (max-width: 480px) {
+  .language-dropdown {
+    top: 70px;  /* Further adjust top positioning */
+    left: 30px;
+    right: 0;  /* Further adjust right positioning */
+    padding: 10px;  /* Further adjust padding */
+    font-size: 14px;  /* Further adjust font size */
+  }
+  #tv_hrad {
+
+    color: #000000;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #3b9af3;
+    left: 25px;
+    white-space: normal; /* Allow text wrapping */
+    display: block; /* Ensure block display */
+    width: 100%; /* Full width */
+    max-width: 300px; /* Maximum width */
+    height: auto; /* Adjust height based on content */
+    line-height: 1.5; /* Adjust line height for readability */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    overflow-wrap: break-word; /* Break long words to prevent overflow */
+  }
+
+
+}
